@@ -26,7 +26,7 @@ import java.util.concurrent.CountDownLatch;
 
 public class Application {
     private static String zookeeperHost = System
-            .getProperty("zookeeper.address", "127.0.0.1");
+            .getProperty("zookeeper.address", "47.107.60.105");
     private static String zookeeperPort = System.getProperty("zookeeper.port",
             "2181");
 
